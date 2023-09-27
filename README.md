@@ -2,11 +2,11 @@
 description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# 👋 Welcome
+# 👋 Bem-vindo
 
-Some of this website pages may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
+Algumas dessas páginas podem ter links afiliados, o que significa que receberei uma comissão se você decidir fazer uma compra (sem nenhum costo para você).
 
-### 💠Quick Links
+### 💠Links rápidos
 
 {% content-ref url="other/tos.md" %}
 [tos.md](other/tos.md)
@@ -30,13 +30,13 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 * [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Purchase
+## Comprar
 
 {% hint style="warning" %}
-Buy the plugin only from official shops, if you bought it elsewhere you was scammed, ask for a refund.
+Compre o plugin apenas de lojas oficiais, se você comprou em outro lugar você foi enganado, peça por reembolso
 {% endhint %}
 
-### With PayPal
+### Com PayPal
 
 * [SpigotMC](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
