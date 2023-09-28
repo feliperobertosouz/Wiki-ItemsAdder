@@ -2,12 +2,12 @@
 
 ## [Download here](https://www.spigotmc.org/resources/43058/)
 
-## How to use enchants
+## Como usar os encantamentos
 
-This is an example configuration for an ItemsAdder custom item enchant.
+Esse é um exemplo de configuração para um item customizavel do ItemsAdder com encantamento.
 
 {% hint style="warning" %}
-This requires **ItemsAdder** 2.5.2+
+Isso requer **ItemsAdder** 2.5.2+
 {% endhint %}
 
 ```yaml

@@ -1,12 +1,12 @@
-# Fix blocks problem
+# Corrigir problema com blocos
 
 {% hint style="warning" %}
-**MMOItems** blocks are not compatible with **ItemsAdder** and vice versa.
+Blocos do **MMOItems** não são compatíveis com **ItemsAdder** e vice-versa.
 {% endhint %}
 
-## How to use MMOItems blocks?
+## Como usar os blocos do MMOItems?
 
-You have to open the `config.yml` file of **ItemsAdder** and disable **REAL** blocks (mushroom).
+Você precisa abrir o arquivo `config.yml` do **ItemsAdder** e desativar os blocos **REAL** (cogumelo).
 
 {% code title="config.yml" %}
 ```yaml
@@ -15,7 +15,7 @@ You have to open the `config.yml` file of **ItemsAdder** and disable **REAL** bl
 {% endcode %}
 
 {% hint style="info" %}
-After applying this change you won't be able to create ItemsAdder blocks with type: REAL.
+Após aplicar essa alteração, você não poderá mais criar blocos do ItemsAdder do tipo: REAL.
 
-Other ItemsAdder custom block types will still work (for example REAL\_NOTE).
+Outros tipos personalizados de blocos do ItemsAdder ainda funcionarão (por exemplo, REAL_NOTE).
 {% endhint %}

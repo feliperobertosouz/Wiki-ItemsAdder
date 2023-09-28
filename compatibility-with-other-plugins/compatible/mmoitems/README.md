@@ -4,43 +4,43 @@ description: ItemsAdder is compatible with MMOItems and it's very easy to integr
 
 # MMOItems
 
-Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+Baixe **MMOItems** [aqui](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
-### Here you can download the example package shown in this tutorial
+### Aqui você pode baixar o pacote de exemplo mostrado neste tutorial
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## Known limitations
+## Limitações conhecidas
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/2008" %}
 
-## Connect an MMOItem to an ItemsAdder item
+## Conecte um MMOItem a um item do ItemsAdder
 
-### Use the command /mmoitems browse
+### Use o comando /mmoitems browse
 
-![](<../../../.gitbook/assets/immagine (28).png>)
+![](<../../../.gitbook/assets/image_(25).png>)
 
-### Create a new MMOItem
+### Crie um novo MMOItem
 
-![](<../../../.gitbook/assets/immagine (92).png>)
+![](<../../../.gitbook/assets/image_(26).png>)
 
-![](<../../../.gitbook/assets/immagine (11).png>)
+![](<../../../.gitbook/assets/image_(29).png>)
 
-### Add all the attributes you want, for example magic damage etc
+### Adicione todos os atributos que desejar, por exemplo, dano mágico etc.
 
-![](<../../../.gitbook/assets/immagine (70).png>)
+![](<../../../.gitbook/assets/image_(28).png>)
 
-### MMOItem preview inside /mmoitems browse
+### Visualização do MMOItem dentro de /mmoitems browse
 
-![](<../../../.gitbook/assets/immagine (74).png>)
+![](<../../../.gitbook/assets/image_(30).png>)
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### Crie seu arquivo .yml como de costume e adicione todas as propriedades para o item do ItemsAdder
 
 `ItemsAdder/contents/mmoitems_example/configs/example.yml`
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
-These are used to **connect** the **two items**.
+Como você pode ver, defini um novo atributo chamado **`mmoitem`** e também **`type`** e **`id`**.\
+Esses são usados para **conectar** os **dois itens**.
 {% endhint %}
 
 ```yaml
@@ -62,13 +62,13 @@ items:
       max_custom_durability: 1324
 ```
 
-### Create your .png texture as usual
+### Crie sua textura .png como de costume
 
 `ItemsAdder/contents/mmoitems_example/resourcepack/mmoitems_example/textures/item/test.png`
 
-### Get the item
+### Obtenha o item
 
-Use the command `/iaget mmoitems_example:test` to get your finished item
+Utilize o comando `/iaget mmoitems_example:test` para obter o seu item finalizado
 
 ![](<../../../.gitbook/assets/immagine (97).png>)
 
